@@ -637,8 +637,12 @@ font-size: 14px;
   margin-top: 30px !important;
 } */
 .site-logo{
+
   width: 100%;
   text-align: center;
+}
+  .site-logo a {
+    max-width: 100%;
 }
     .fs-120 {
         font-size: 30px;
