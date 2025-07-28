@@ -34,7 +34,7 @@ $(document).ready(function () {
 
 
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 50) {
+  if ($(this).scrollTop() > 10) {
     $("body").addClass("scroll");
   } else {
     $("body").removeClass("scroll");
